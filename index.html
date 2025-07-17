@@ -12,44 +12,64 @@
 </head>
 <body>
     <header>
-        <div class="row w-100 text-center align-items-center mx-auto p-3 container-sm container-md">
-            <div class="col-2 text-start icons">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="col-8">
-              <a class="navbar-brand img-fluid" href="#">
-                <img src="images/logo2.png" alt="Logo" width="150">
-              </a>
-            </div>
-            <div class="col-2 text-end icons `">
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
-            </div>
-        </div>
-          
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <div class="container-fluid">
 
-        <!-- <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid text-center">
-                <a class="navbar-brand rounded" href="#">
-                    <img src="images/logo2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top h-25 w-25 p-3 img-fluid">
+            <!-- Top Row: Logo center (mobile), toggle left, icons right -->
+            <div class="d-flex w-100 justify-content-between align-items-center d-lg-none">
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <i class="fa-solid fa-bars nav"></i>
+                </button>
+
+                <!-- Logo Centered on Mobile -->
+                <a class="navbar-brand mx-auto" href="#">
+                    <img src="images/logo2.png" alt="Logo" width="120">
                 </a>
-                <i class="bi bi-search-heart-fill"></i>
-            </div>
-        </nav> -->
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto p-2">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link active" aria-current="page" href="#">Catalog</a>
-                    <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                    <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                <!-- Icons on Right -->
+                <div class="d-flex align-items-center gap-3 icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
             </div>
-        </nav>
-    </header>
+
+            <!-- Desktop View: Full Navbar -->
+            <div class="collapse navbar-collapse d-lg-flex justify-content-between align-items-center" id="mainNav">
+                <!-- Logo on Large Screens (Left) -->
+                <a class="navbar-brand d-none d-lg-block" href="#">
+                    <img src="images/logo2.png" alt="Logo" width="120">
+                </a>
+
+                <!-- Center Navigation Links -->
+                <ul class="navbar-nav mx-auto text-center nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Pages</a>
+                    </li>
+                </ul>
+
+                <!-- Icons on Large Screens (Right) -->
+                <div class="d-none d-lg-flex align-items-center gap-3 icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+</header>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

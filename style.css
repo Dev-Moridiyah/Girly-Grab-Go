@@ -3,3 +3,13 @@
     color: #FB6F92;
     font-size: 22px;
 }
+
+.nav {
+    color: #FB6F92;
+    font-size: 22px;
+}
+
+.nav-link {
+   color: #FB6F92 !important;
+   font-size: 18px;
+}
