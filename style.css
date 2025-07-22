@@ -1,15 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.custom-header {
+    background-image: url(images/white.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navigation {
+    position: sticky;
+    background: linear-gradient(to bottom, rgba(238, 115, 135, 0.322), rgba(238, 115, 136, 0));
+}
 .icons {
     color: #FB6F92;
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.img-icon {
+    padding: 6px;
 }
 
 .nav {
     color: #FB6F92;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .nav-link {
    color: #FB6F92 !important;
-   font-size: 18px;
+   font-size: 24px;
+   padding: 16px !important;
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: 1000;
+   font-style: normal;
+}
+
+.home {
+    color: #FB6F92;
 }
