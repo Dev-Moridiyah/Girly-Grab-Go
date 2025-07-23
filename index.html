@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,53 +14,29 @@
     <header class="custom-header">
         <nav class="navbar navbar-expand-lg px-3 py-2 navigation">
             <div class="container-fluid">
-
-                <!-- Top Row: Logo center (mobile), toggle left, icons right -->
                 <div class="d-flex w-100 justify-content-between align-items-center d-lg-none">
-                    <!-- Toggle Button -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                         <i class="fa-solid fa-bars nav"></i>
                     </button>
-
-                    <!-- Logo Centered on Mobile -->
                     <a class="navbar-brand mx-auto" href="#">
                         <img src="images/loggo.png" alt="Logo" width="60">
                     </a>
-
-                    <!-- Icons on Right -->
                     <div class="d-flex align-items-center gap-3 icons">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                 </div>
-
-                <!-- Desktop View: Full Navbar -->
                 <div class="collapse navbar-collapse d-lg-flex justify-content-between align-items-center" id="mainNav">
-                    <!-- Logo on Large Screens (Left) -->
                     <a class="navbar-brand d-none d-lg-block" href="#">
                         <img src="images/loggo.png" alt="Logo" width="60">
                     </a>
-
-                    <!-- Center Navigation Links -->
-                    <ul class="navbar-nav mx-auto text-center nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">Categories</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">Deals</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                        </li>
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Deals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     </ul>
-
-                    <!-- Icons on Large Screens (Right) -->
                     <div class="d-none d-lg-flex align-items-center gap-3 icons">
                         <i class="fa-solid fa-magnifying-glass img-icon"></i>
                         <i class="fa-regular fa-user img-icon"></i>
@@ -70,33 +45,57 @@
                 </div>
             </div>
         </nav>
-
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    </header>
+    <!-- Bootstrap 5 Carousel -->
+        <div id="bs-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="images/back.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-item active slide-1">
+                    <div class="overlay"></div>
+                    <div class="hero">
+                        <h2>Grab Your Cute Campus Must-Haves!</h2>
+                        <h3>Everything a girl needs to slay school in style.</h3>
+                        <button class="btn btn-hero">Shop Now</button>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                <img src="images/Desktop Wallpapers.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-item slide-2">
+                    <div class="overlay"></div>
+                    <div class="hero">
+                        <h2>Study Pretty, Stay Ready</h2>
+                        <h3>From beauty to books, we’ve got you covered.</h3>
+                        <button class="btn btn-hero">Explore Products</button>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                <img src="images/cart.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item slide-3">
+                    <div class="overlay"></div>
+                    <div class="hero">
+                        <h2>Make Your Space Yours</h2>
+                        <h3>Cute dorm room finds to match your vibe.</h3>
+                        <button class="btn btn-hero">Shop Room Decor</button>
+                    </div>
+                </div>
+                <div class="carousel-item slide-4">
+                    <div class="overlay"></div>
+                    <div class="hero">
+                        <h2>Productivity Looks Pretty Good on You</h2>
+                        <h3>Grab the essentials that make studying a vibe.</h3>
+                        <button class="btn btn-hero">Shop Stationery</button>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#bs-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#bs-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
             </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#bs-carousel" data-bs-slide-to="3"></button>
+            </div> -->
         </div>
-    </header>
 
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">    </script>
-    <script src="script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
