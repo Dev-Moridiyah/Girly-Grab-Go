@@ -10,40 +10,51 @@ body {
     position: relative;
 } */
 .navigation {
-    position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
-  background-color: white;
+  /* background-color: white; */
   padding: 10px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.Logo {
+    
+}
 
 .nav {
-    color: #FB6F92;
+    color: white;
 }
+
+.nav:hover {
+    color: #fb6f92;
+}
+
 .icons {
-    color: #FB6F92;
+    color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .img-icon:hover {
-    color: #1abc9c;
+    color: #FB6F92;
 }
 
 .img-icon {
     padding: 6px;
 }
 .nav-link {
-    /* color: #FB6F92 !important;
-    font-size: 24px;
+    color: white !important;
+    font-size: 20px;
     padding: 16px !important;
-    font-family: "Dancing Script", cursive;
-    font-weight: 1000; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .nav-link:hover {
-    color: #1abc9c !important;
+    color: #FB6F92 !important;
 }
 
 /* Carousel Fix */
@@ -82,23 +93,61 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: white;
     z-index: 2;
     text-align: center;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.75);
 }
 
-.hero h1 {
-    font-size: 4em;
-    font-weight: bold;
+.hero h2 {
+     font-family: 'Great Vibes', cursive;
+  font-size: 3em;
 }
 
+.hero h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+
 .btn-hero {
-    background-color: #1abc9c;
+    background-color: #FB6F92;
     color: white;
     border: none;
     padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    /* transition: background-color 0.3s ease; */
 }
+
+.btn-hero:hover {
+    background-color: transparent;
+    border: 2px solid #FB6F92;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+    gap: 10px; 
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    border: none;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #fb6f92;
+}
+
 
 @media screen and (max-width: 640px) {
     .hero h1 { font-size: 2.5em; }
