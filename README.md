@@ -18,7 +18,7 @@ This is an online store project for female students to easily grab daily essenti
 
 ### 📸 Demo Video
 
-<a href="https://drive.google.com/file/d/1FNVPBIXOo2lBThhtMd1RRlpNRgiGSQv5/view">
+<a href="https://drive.google.com/file/d/1cMeqELOKgi_Vru4nGO44TqxxpxUV1sje/view?usp=drive_link">
   <img width="800" alt="Demo Thumbnail" src="https://github.com/user-attachments/assets/88195e2d-9102-4ccd-8317-b8a66fcc7cad" />
 </a>
 
