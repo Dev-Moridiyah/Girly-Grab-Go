@@ -1,4 +1,4 @@
-### Girl Grab and Go 👜💄
+### 🌸 Girl Grab and Go 👜💄
 
 **Status:** 🚧 Work In Progress
 
@@ -6,25 +6,30 @@ A student essentials e-commerce website made for girls who are always on the go!
 
 ### 🔧 What I'm Building
 
-This is an online store project for female students to easily grab daily essentials like stationery, skincare, accessories, and more. Built using HTML, CSS, JavaScript, Mysql (more features coming soon!).
+This is an online store project for female students to easily grab daily essentials like stationery, skincare, accessories, and more. Built using **HTML**, **CSS**, **JavaScript**, and **MySQL** (more features coming soon!).
 
 ### 🚀 Features (coming soon)
 
-- 🛒 Shopping cart
-- 🎀 Categories for student essentials
-- 💵 Price display
-- 📱 Mobile responsive layout
+- 🛒 Add-to-cart system  
+- 🎀 Product categories (beauty, school, lifestyle)  
+- 💵 Price and discount display  
+- 📱 Mobile-friendly layout  
+- 🔍 Search and filter (coming)
 
-### 📸 Preview
+### 📸 Demo Video
 
-<img width="1920" height="1080" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/d7e4a349-ba01-42a9-9901-1f6f4b622d84" />
+<a href="https://drive.google.com/file/d/1FNVPBIXOo2lBThhtMd1RRlpNRgiGSQv5/view">
+  <img width="800" alt="Demo Thumbnail" src="https://github.com/user-attachments/assets/88195e2d-9102-4ccd-8317-b8a66fcc7cad" />
+</a>
 
 ### 🛠 Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- Mysql 
+- HTML  
+- CSS  
+- JavaScript  
+- MySQL  
+- Bootstrap (for responsiveness)  
+- Font Awesome (icons)
 
 ### 🎀 Why I’m Building It
 
@@ -37,3 +42,4 @@ This project is still in development. More features and pages are being added gr
 ### ⭐ Support
 
 If you like this idea, feel free to **star** ⭐ the repo or leave feedback!
+Thanks for checking it out 💕
