@@ -10,3 +10,10 @@ window.addEventListener('scroll', function () {
   // Apply the opacity to the overlay
   fadeOverlay.style.opacity = fadeRatio;
 });
+
+
+
+AOS.init({
+    duration: 1100, // animation speed
+    once: false     // only animate the first time scrolling
+});
