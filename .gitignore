@@ -1,0 +1,33 @@
+# Ignore Composer vendor folder (if using Composer)
+vendor/
+
+# Ignore environment variables file
+.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore cache and temporary files
+tmp/
+cache/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system swap/backup files
+*.swp
+*.swo
+*~
+
+# Ignore PHPStorm/JetBrains IDE settings
+.idea/
+
+# Ignore upload folders (optional)
+uploads/
+
+# Ignore images folder
+Yummy/

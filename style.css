@@ -1,14 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
-/* .custom-header {
-    background-image: url(images/white.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-} */
+
 .navigation {
   position: fixed;
   top: 0;
@@ -20,16 +15,13 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.Logo {
-    
-}
 
 .nav {
     color: white;
 }
 
 .nav:hover {
-    color: #ff799b;
+    color: #d7b9e8;
 }
 
 .icons {
@@ -39,7 +31,7 @@ body {
 }
 
 .img-icon:hover {
-    color: #ff799b;
+    color: #d7b9e8;
 }
 
 .img-icon {
@@ -54,7 +46,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #ff799b !important;
+    color: #d7b9e8 !important;
 }
 
 /* Carousel Fix */
@@ -124,7 +116,7 @@ body {
 
 
 .btn-hero {
-    background-color: #ff799b;
+    background-color: #d7b9e8;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -137,8 +129,8 @@ body {
 
 .btn-hero:hover {
     background-color: white;
-    color: #ff799b;
-    border: 2px solid #ff799b;
+    color: #d7b9e8;
+    border: 2px solid #d7b9e8;
 }
 
 .carousel-indicators {
@@ -158,7 +150,7 @@ body {
 
 .carousel-indicators .active {
     /* opacity: 1; */
-    background-color: #ff799b;
+    background-color: #d7b9e8;
 }
 
 
@@ -175,7 +167,7 @@ body {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #ff799b;
+    background-color: #d7b9e8;
     color: white;
     font-size: 22px;
     font-weight: bold;
@@ -187,8 +179,8 @@ body {
 
 .custom-carousel-buttons button:hover {
     background-color: white;
-    color: #ff799b;
-    border: 2px solid #ff799b;
+    color: #d7b9e8;
+    border: 2px solid #d7b9e8;
 }
 
 .carousel-control-prev,
@@ -241,7 +233,7 @@ body.scrolled-past-carousel .carousel-parallax::after {
 .top-wave {
   position: relative;
   line-height: 0;
-  padding: 0px 20px;
+  padding: 0px 50px;
 }
 
 .top-wave svg {
@@ -250,42 +242,12 @@ body.scrolled-past-carousel .carousel-parallax::after {
   height: 120px;
 }
 
-
-
-
-.background {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-color: #f5f5f5;
-  overflow: hidden;
-}
-
-
-.circle {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background-color: #fecadb;
-  opacity: 0;
-  transform: scale(0.8);
-  animation: pop-in 1.5s ease-out forwards;
-  padding: 0px 20px;
-}
-
-.top-left {
-  top: 0;
-  left: 0;
-  border-radius: 0 0 100% 0;
-  animation-delay: 0.2s;
-}
-
 .categories-section {
-    background-color: #fce4ec;
+    background-color: #d7b9e8;
 }
 
 .categories-section h2 {
-    color: #ff799b;
+    color: white;
     font-family: 'Great Vibes', cursive;
 }
 
@@ -308,64 +270,35 @@ body.scrolled-past-carousel .carousel-parallax::after {
 
 
 /* page 3 */
-.background {
+
+
+.banner {
   position: relative;
-  width: 100%;
-  height: 100vh;
-  background-color: #f5f5f5;
-  overflow: hidden;
+  background-color: #fce4ec; /* purple bar */
+  text-align: center;
+  padding: 40px 0;
+  font-family: cursive;
+  margin: 40px 0px;
+  color: white;
 }
 
-/* Shared circle style */
-.circle {
+.flower {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-color: #f8a3b8;
-  opacity: 0;
-  transform: scale(0.8);
-  animation: pop-in 1.5s ease-out forwards;
+  width: 60px; /* adjust size */
 }
 
-/* Top-left quarter circle */
-.top-left {
+.top-right {
   top: 0;
-  left: 0;
-  border-radius: 0 0 100% 0;
-  animation-delay: 0.9s;
+  right: 15%;
+  transform: translate(50%, -50%); /* push half outside */
 }
 
-/* Bottom-right quarter circle */
 .bottom-right {
   bottom: 0;
-  right: 0;
-  border-radius: 100% 0 0 0;
-  animation-delay: 0.9s;
+  left: 15%;
+  transform: translate(50%, 50%); /* push half outside */
 }
 
-/* Animation keyframes */
-@keyframes pop-in {
-  0% {
-    opacity: 0;
-    transform: scale(0.8) translateY(-30px) translateX(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0) translateX(0);
-  }
-}
-
-
-@keyframes pop-in {
-  0% {
-    opacity: 0;
-    transform: scale(0.8) translateY(-30px) translateX(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0) translateX(0);
-  }
-} 
 
 @media screen and (max-width: 640px) {
     .hero h1 { font-size: 2.5em; }
@@ -375,3 +308,4 @@ body.scrolled-past-carousel .carousel-parallax::after {
     font-size: 2em;
   }
 }
+
